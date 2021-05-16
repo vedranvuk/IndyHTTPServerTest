@@ -25,7 +25,6 @@ begin
     SetEvent(StopEvent);
     Exit;
   end;
-  Writeln(ARequestInfo.URI);
   AResponseInfo.ContentText := 'Hello World!';
 end;
 
